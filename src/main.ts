@@ -10,12 +10,7 @@ async function bootstrap() {
   app.enableCors({
     origin: [
       'http://localhost:3000',
-      'http://example.com',
-      'http://www.example.com',
-      'http://app.example.com',
-      'https://example.com',
-      'https://www.example.com',
-      'https://app.example.com',
+      'https://oru-ride-polama-frontend-tvuo-l6dasnbmh-anandhan-asahi.vercel.app',
     ],
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     credentials: true,
